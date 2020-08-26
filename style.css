@@ -1,0 +1,245 @@
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+
+#contact-box form{
+    width:80%;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+:root{
+    --navbar-height: 59px;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.click{
+    text-align: center;
+
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+
+
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color:white;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('images/food.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    padding: 9px 20px;
+    height:600px;
+    position:relative;
+    font-family:'Bree Serif', serif;
+    overflow:hidden;
+}
+.footer .footer-content{
+    
+    height:300px;
+    display:flex;
+
+}
+.footer .footer-content .footer-section{
+    flex:1;
+    
+    padding:25px;
+}
+.footer-section ul{
+    color:white;
+}
+
+
+.btn{
+    text-align: center;
+
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+    
+}
+#footer{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    padding-top:20px;
+    background-color:rgb(25, 25, 41);
+    width:100%;
+    
+}
+
+.centerdiv{
+    justify-content:center;
+    display:flex;
+    align-items: center;
+    background-color:black;
+}
+ .centerdiv a{
+    height:100px;
+    width:100px;
+    background-color:gainsboro;
+    border-radius:50px;
+    text-align:center;
+    margin:10px;
+    line-height:100px;
+    box-shadow:1px 4px 2px 2px rgb(73, 70, 70);
+    
+}
+.centerdiv a i{
+    font-size:30px;
+    transition: all 0.3s linear;
+
+}
+.centerdiv h3{
+   color:white;
+}
+body{
+    
+	
+    font-family: sans-serif;
+}
+
+h3{
+    text-align:center;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color:#e84393;
+}
+.fa-twitter{
+    color:#0097e6;
+}
+.fa-youtube{
+    color:#e84118;
+}
